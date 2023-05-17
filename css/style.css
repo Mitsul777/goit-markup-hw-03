@@ -1,0 +1,175 @@
+/* цвет основного текста #2E2F42 */
+/* вторичный цвет #434455 */
+/* белый цвет #FFFFFF */
+/* цвет хедера(лого) #4D5AE5 */
+/* цвет футера #F4F4FD  */
+/* акцент #4D5AE5 */
+:root {
+    --primary-text-color: #4D5AE5;
+    --dark-text-color: #2E2F42;
+    --success-text-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-text-color: #E7E9FC;
+    --light-text-color: #F4F4FD; 
+    --light-color: #FFFFFF;
+}
+
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--light-color);
+    color : var(--text-color);
+}
+.logo {
+    font-family: "Raleway", sans-serif;    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+.link {
+text-decoration: none;
+}
+.logo-studio {
+color: #2e2f42;
+}
+.site-nav {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.list {
+    list-style: none;
+}
+
+/* site-nav  */
+.site-nav .link {
+    color: var(--dark-text-color);
+}
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #404bbf;
+} 
+.social {
+    font-style: normal;
+}
+.email {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.email:hover,
+.email:focus {
+    color:  #404bbf;
+}
+.hero {
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.section-title {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.paragraff {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.features-list .title {
+    color: #2E2F42;
+}
+.team {
+    background-color: var(--light-text-color);
+}
+.team-list {
+    background-color: #FFFFFF;
+}
+.person {
+    background-color: #FFFFFF;
+}
+.person-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-text-color)
+}
+.person-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+.footer {
+    background-color: var(--dark-text-color)
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.footer-logo-studio {
+    color: #f4f4fd;
+}
+.site-nav .list .link {
+    color: var(--dark-text-color);
+}
+.btn {
+    color: var(--primary-text-color);
+    background-color: var(--light-text-color);
+}
+.btn:hover,
+.btn:focus {
+    color: #FFFFFF;
+}
+.other-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-text-color);
+}
