@@ -52,6 +52,11 @@ body {
     display: flex;
     align-items: center;
 }
+.header-main {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+}
 .logo {
     padding-top: 22px;
     font-family: "Raleway", sans-serif;    
