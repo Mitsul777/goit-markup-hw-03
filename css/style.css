@@ -149,6 +149,10 @@ color: #2e2f42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+.work-list {
+    display: flex;
 }
 .title {
     margin-bottom: 8px;
@@ -179,6 +183,9 @@ color: #2e2f42;
 }
 .features-list .title {
     color: #2E2F42;
+}
+.work {
+    padding-bottom: 120px;
 }
 .team {
     background-color: var(--light-text-color);
