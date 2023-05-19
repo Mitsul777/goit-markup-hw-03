@@ -37,6 +37,7 @@ body {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -44,6 +45,7 @@ body {
 }
 .header {
     padding-top: 25px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .logo {
     padding-top: 22px;
