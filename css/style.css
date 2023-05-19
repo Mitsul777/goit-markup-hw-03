@@ -173,6 +173,7 @@ color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .section-item {
     flex-basis: calc((100% - 72px) / 4);
@@ -186,6 +187,10 @@ color: #2e2f42;
 }
 .work {
     padding-bottom: 120px;
+}
+.work-item {
+    display: flex;
+    gap: 24px;
 }
 .team {
     background-color: var(--light-text-color);
