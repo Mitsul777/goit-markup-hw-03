@@ -193,7 +193,7 @@ color: #2e2f42;
 .work-item {
     flex-basis: calc((100% - 3 * 16px) / 3);
 }
-.
+
 .team {
     background-color: var(--light-text-color);
 }
@@ -216,9 +216,12 @@ color: #2e2f42;
     letter-spacing: 0.02em
 }
 .footer {
+    padding: 100px 0;
     background-color: var(--dark-text-color)
 }
 .footer-logo {
+    margin-bottom: 16px;
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -229,6 +232,9 @@ color: #2e2f42;
 }
 .footer-logo-studio {
     color: #f4f4fd;
+}
+.footer-text {
+    max-width: 264px;
 }
 .site-nav .list .link {
     color: var(--dark-text-color);
