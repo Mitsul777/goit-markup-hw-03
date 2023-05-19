@@ -219,7 +219,8 @@ color: #2e2f42;
     padding: 100px 0;
     background-color: var(--dark-text-color)
 }
-.footer-logo {
+.footer-logo.link {
+display: inline-block;
 margin-bottom: 16px;
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -228,7 +229,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
-display: inline-block;
 }
 .footer-logo-studio {
     color: #f4f4fd;
