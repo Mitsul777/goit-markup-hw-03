@@ -153,7 +153,9 @@ color: #2e2f42;
 }
 .work-list {
     display: flex;
+    gap: 24px;
 }
+
 .title {
     margin-bottom: 8px;
     font-weight: 500;
@@ -189,9 +191,9 @@ color: #2e2f42;
     padding-bottom: 120px;
 }
 .work-item {
-    display: flex;
-    gap: 24px;
+    flex-basis: calc((100% - 3 * 16px) / 3);
 }
+.
 .team {
     background-color: var(--light-text-color);
 }
