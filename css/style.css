@@ -47,6 +47,10 @@ body {
     padding-top: 25px;
     border-bottom: 1px solid #e7e9fc;
 }
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     padding-top: 22px;
     font-family: "Raleway", sans-serif;    
@@ -55,7 +59,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    margin-right: 76px;
 }
 .link {
 text-decoration: none;
