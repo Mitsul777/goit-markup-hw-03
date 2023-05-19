@@ -201,6 +201,7 @@ color: #2e2f42;
 .team-list {
     display: flex;
     background-color: #FFFFFF;
+    gap: 24px;
 }
 .person {
     background-color: #FFFFFF;
