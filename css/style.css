@@ -64,6 +64,7 @@ body {
 }
 .link {
 text-decoration: none;
+padding: 24px 0;
 }
 .logo-studio {
 color: #2e2f42;
