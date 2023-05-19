@@ -220,6 +220,9 @@ color: #2e2f42;
     background-color: var(--dark-text-color)
 }
 
+.link.logo-footer {
+display: inline-block;
+}
 .logo-footer {
 display: inline-block;
 margin-bottom: 16px;
