@@ -221,6 +221,7 @@ color: #2e2f42;
 }
 .footer-logo {
     display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -230,9 +231,8 @@ color: #2e2f42;
     color: var(--primary-text-color);
 }
 .footer-logo-studio {
-color: #f4f4fd;
+    color: #f4f4fd;
 }
-
 .footer-text {
     max-width: 264px;
 }
