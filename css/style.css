@@ -48,6 +48,9 @@ body {
     padding-top: 25px;
     border-bottom: 1px solid #e7e9fc;
 }
+.header-main.container {
+    margin: 0;
+}
 .header-nav {
     display: flex;
     align-items: center;
