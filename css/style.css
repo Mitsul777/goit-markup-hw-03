@@ -309,3 +309,11 @@ color: var(--primary-text-color);
     gap: 24px;
     margin-bottom: 72px;
 }
+.hero-btn.btn {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+}
+.hero-btn.btn:hover,
+.hero-btn.btn:focus {
+    border: 1px solid transparent;
+}
