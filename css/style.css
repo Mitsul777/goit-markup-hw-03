@@ -292,3 +292,10 @@ color: var(--primary-text-color);
 .page {
     border-bottom: 1px solid #e7e9fc;
 }
+.page-container {
+    display: flex;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+}
