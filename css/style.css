@@ -220,6 +220,8 @@ color: #2e2f42;
     border-radius: 0px 0px 4px 4px; 
 }
 .person-name {
+    margin-bottom: 8px;
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -234,6 +236,7 @@ color: #2e2f42;
     width: calc((100% - 72px) / 4);
 }
 .person-p {
+    text-align: center;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em
