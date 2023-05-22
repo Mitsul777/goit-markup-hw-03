@@ -160,6 +160,9 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     margin-bottom: 72px;
 }
+.section-title-skipp {
+    visibility: hidden;
+}
 .work-list {
     display: flex;
     gap: 24px;
