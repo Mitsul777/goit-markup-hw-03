@@ -239,6 +239,9 @@ color: #2e2f42;
     display: flex;
     gap: 24px;
 }
+.container-teams {
+    padding: 32px 16px;
+}
 .footer {
     padding: 100px 0;
     background-color: var(--dark-text-color)
