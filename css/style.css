@@ -299,3 +299,13 @@ color: var(--primary-text-color);
     display: flex;
     align-items: center;
 }
+.page-section {
+    padding-top: 96px; 
+    padding-bottom: 120px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
