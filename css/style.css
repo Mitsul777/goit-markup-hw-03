@@ -349,14 +349,16 @@ color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border: none;
+    border: 1px solid #e7e9fc;
     border-radius: 4px;
     color: var(--primary-text-color);
     background-color: var(--light-text-color);
 }
-.btn:hover,
+.btn:hover {
+    border: 1px solid transparent;
+}
 .btn:focus {
-    color: #FFFFFF;
+    border: 1px solid transparent;
 }
 .other-h {
     font-weight: 500;
